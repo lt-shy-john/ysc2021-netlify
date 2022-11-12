@@ -1,5 +1,0 @@
-composer.lock
-(.*/)?test/(.*/)
-
-# Tartufo configuration
-tartufo.toml
