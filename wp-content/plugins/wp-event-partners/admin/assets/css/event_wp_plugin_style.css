@@ -1,0 +1,415 @@
+/*menu*/
+#adminmenu  a.wp-has-submenu.wp-has-current-submenu.toplevel_page_wp_event_partners,#adminmenu  a.toplevel_page_wp_event_partners {
+    background: linear-gradient(-45deg, #e45290, #e45290, #3f50d4, #3f50d4);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*a{color: #21759B;}*/
+.theme-browser .theme .theme-name {
+    box-sizing: initial;
+}
+.dashicons-admin-generic:before {color: #fff38a !important;}
+#adminmenu a.toplevel_page_wp_event_partners:hover {color: #fff38a !important;}
+
+#adminmenu .toplevel_page_wp_event_partners li.current a span{color: #00b9eb;}
+#adminmenu a span.addons{color: #ffd124; font-weight: bold;}
+/*menu*/
+
+.alert-primary{background: linear-gradient(-45deg, #e45290, #3f50d4);color: #fff;border: none;overflow: hidden;line-height: 38px;}
+.alert-primary a{text-decoration: none;}
+
+.schedule-heading {
+    background: #e8e8e8;
+    line-height: 37px;
+    border: 1px solid #ccd0d4;
+    padding: 7px 15px;
+    font-size: 15px;
+}
+
+.tab .nav-tabs {
+    border-bottom:0 none;
+}
+.tab .nav-tabs li a{
+    position: relative;
+    padding: 15px;
+    color: #408080;
+    font-size: 17px;
+    z-index: 1;
+}
+.tab .nav-tabs li a:hover{
+    background:transparent;
+    border:1px solid transparent;
+}
+.tab .nav-tabs li a:before{
+    content: "";
+    width:100%;
+    height:100%;
+    position:absolute;
+    bottom: 0px;
+    left:-2px;
+    background: transparent;
+
+    border: 1px solid #d3d3d3;
+    border-bottom: 0px none;
+    border-radius: 10px 10px 0 2px;
+    transform-origin: left center 0;
+    /*transform: perspective(4px) rotateX(2deg);*/
+    z-index:-30;
+}
+.tab .nav-tabs li{
+    margin-right: 15px;
+}
+.tab .nav-tabs li.active a:before{
+    background: #0073aa;
+}
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li.active a:focus,
+.tab .nav-tabs li.active a:hover{
+    border:1px solid transparent;
+    background:transparent;
+    color: #00D5D5;
+    font-weight:700;
+    z-index: 2;
+}
+.tab-content .tab-pane{
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border: 1px solid #408080;
+    padding: 20px;
+    background:#f9f9f9;
+    line-height: 22px;
+}
+.tab-content .tab-pane h4{
+    margin-top: 0;
+    font-weight:700;
+    font-size: 20px;
+}
+.tab input[type= text],.tab input[type= email],.tab input[type= url],.tab textarea{
+    width: 75%;
+}
+#tab2 .form-table td{
+    width: 450px
+}
+/*table tr td button{
+    width: 130px;
+}*/
+legend{
+    font-size: inherit;
+}
+/*add metabox*/
+.top-info{background: linear-gradient(-45deg, #e45290, #3f50d4);padding:60px;color:#fff;margin-left: -20px;}
+.top-info h1{color:#fff;margin-top:0;}
+.top-info .button{border: none;padding: 8px 15px;}
+.top-info .button-primary{background-color: #ffc107;color: #000;}
+
+.wep-themes {
+    padding: 120px 0;
+    background: url(https://wpeventpartners.com/wp-content/uploads/2020/07/Web2.png) no-repeat right center;
+    background-size: contain;
+}
+
+
+.fieldset-event-info legend:first-child{
+    margin: 0 0 30px;
+}
+.fieldset-event-info legend{
+    font-weight: 600;
+    padding: 10px 15px;
+    margin: 30px 0px;
+    background: linear-gradient(-45deg, #e45290, #3f50d4);
+    color: #fff;
+    background-size: 100%;
+}
+.fieldset-event-info .event-information label{
+    font-weight: 500;
+}
+.fieldset-event-info .event-information label i{
+    margin: 0 5px 0 0;
+}
+.fieldset-event-info .event-information input,
+.fieldset-event-info .event-information textarea,
+.fieldset-event-info .event-information select{
+    /*border-radius: 0;*/
+    border-color: #ddd;
+    padding: 5px 12px;
+}
+.fieldset-event-info .event-information input[type=button]{
+    background: #eee;
+}
+/*.fieldset-event-info .event-information .date-block,
+.fieldset-event-info .event-information .time-block{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 0 30px;
+    background: #f9f9f9;
+}*/
+fieldset.fieldset-1{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px 0;
+}
+.fieldset-1 .group label{
+    display: block;
+    width: 15%;
+    margin-right: 10px;
+    text-align: right;
+    line-height: 24px;
+    float: left;
+}
+.group:before, .group:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.fieldset-1 .group input[type=text],.fieldset-1 .group input[type=url],.fieldset-1 .group textarea{
+    width: 77%;
+    margin-bottom: 20px;
+    display: inline;
+    float: left;
+}
+
+.clonedInput .field-section {
+    display: block;
+    float: left;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 2px solid #ccc;
+    width: 80%;
+}
+.clone-section {
+    padding: 15px;
+    border: 1px solid #ccd0d4;
+    position: relative;
+    background-color: #f9f9f9;
+    border-top: 0;
+    cursor: grab;
+}
+.clone-section.ui-sortable-helper{border: 1px dashed #4750d0;cursor: grabbing;}
+
+.clone-section .group {
+    margin-bottom: 5px;
+}
+.clonedInput .image-block {
+    clear: both;
+    margin-left: 19%;
+}
+.fieldset-photo .group input.upload_image {
+    width: 60%;
+    margin-bottom: 20px;
+}
+.fieldset-photo .group input.upload_image_button {
+    width: 15%;
+    margin: 5px;
+}
+.silde_label {
+    padding-left: 18%;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 17px;
+    font-style: italic;
+    clear: both;
+}
+.clone-section label, .clone-section input, .clone-section textrea,.clone-section select {
+    display: inline;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+}
+fieldset.fieldset-1 legend {
+    font-weight: bold;
+    padding: 0 5px;
+}
+#clone-input-list .clone-section:first-child .btn-remove ,
+#clone-input-list .clone-section:first-child .btn-remove-image{
+    display: none;
+    visibility: hidden;
+}
+.clonedInput .btn-remove {
+    display: block;
+    color: #F00;
+}
+.clonedInput .btn-remove:hover {
+    display: block;
+    color: #000;
+}
+.btn-add-photo ,.btn-add-contact ,.btn-add-schedule{
+    font-weight: bold;
+    color: #21759B;
+    text-decoration: underline;
+}
+.fieldset-photo input[type=checkbox]{
+    margin: 0px 5px;
+}
+
+.ai-item-preview .ai-premium-label{height: 36px;box-sizing: unset;}
+.ai-item-preview .ai-author-info{font-size: 13px;    padding: 10px;}
+
+/*date*/
+#datepicker{width:180px; margin: 0 20px 20px 20px;}
+#datepicker > span:hover{cursor: pointer;}
+
+/*time*/
+.fieldset-timeDetail .group label {
+    width: 36%;
+}
+
+/*schedule*/
+.fieldset-schedule .group label {
+    display: block;
+    width: 5%;
+}
+.fieldset-schedule .clonedInput .field-section {
+    width: 90%;
+}
+.fieldset-schedule .group input[type=text] {
+    width: 100%;
+    background: #fff;
+}
+
+.fieldset-schedule .clone-section input {
+    height: 34px;
+    font-size: 12px;
+}
+.event-information textarea ,.event-information select,  .event-information input[type=text],.event-information input[type=url],.event-information input[type=date] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.event-information .col-sm-5 input[type=date],.event-information .col-sm-5 input[type=text] {
+    /*width: 50%;*/
+}
+.image-block{
+    margin-bottom: 10px;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+.event-information select{
+    font-size: 16px !important;
+    max-width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    .tab .nav-tabs li a{
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    .tab .nav-tabs li a:before{
+        bottom: 6px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .tab .nav-tabs li{
+        width:100%;
+        margin-bottom: 5px;
+    }
+    .tab .nav-tabs li a:before{
+        bottom: 0;
+        transform: none;
+        border-bottom: 1px solid #d3d3d3;
+    }
+}
+
+
+
+/*sponsor*/
+.post-type-sponsor #carousel{
+    border: 0;
+}
+.post-type-sponsor #carousel .handlediv span{
+    color: #fff;
+}
+.post-type-sponsor #carousel h2{
+    background: linear-gradient(-45deg, #e45290, #3f50d4);
+    color: #fff;
+}
+.post-type-sponsor #carousel .inside{
+    margin: 0;
+    padding: 15px;
+    background: #f7f7f7;
+}
+.post-type-sponsor .fieldset-photo{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.post-type-sponsor .fieldset-photo ol{
+    margin-left: 0;
+    list-style: none;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 0 0 15px;
+    padding: 30px 15px;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section:first-child{
+    padding: 30px 15px 10px;
+}
+.post-type-sponsor .fieldset-photo legend{
+    padding: 0;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section .field-section{
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section .field-section input.upload_image_button{
+    margin: 0 0 0 16px;
+    padding: 6px;
+    border-radius: 5px;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section .field-section .slide_label{
+    padding-left: 15%;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section .field-section .image-holder{
+    margin-left: 16.2%;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section .field-section .image-holder img{
+    border: 1px dashed #999;
+    padding: 15px;
+    border-radius: 5px;
+    width: 150px;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section .btn-remove-image {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 15px;
+    background: #dc3545;
+    vertical-align: top;
+    overflow: hidden;
+    margin-left: 16.2%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.post-type-sponsor .fieldset-photo ol .clone-section .btn-remove-image:hover{
+    background: #bb1f2e;
+}
+
+
+/*time*/
+.time_pick .timepicker_wrap{
+    width: 262px;
+}
+
+
+
+
+
+
