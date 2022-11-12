@@ -1,0 +1,26 @@
+.getting-started-notice-dismiss {
+    color: #0073aa;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.getting-started-notice-dismiss:before {
+    display: inline-block;
+    line-height: 1;
+}
+
+@media screen and (max-width: 991px){
+    .getting-started-notice-dismiss {
+        position: static;
+        display: block;
+        padding-bottom: 10px !important;
+    }
+}
